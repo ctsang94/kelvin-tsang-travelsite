@@ -5,32 +5,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Site</title>
+    <link href="./assets/styles/main.css" rel="stylesheet" />
+
 </head>
 
 <body>
     <header class="header">
         <nav class="navbar">
-            <h2 class="header__title">travel site</h2>
-            <ul class="navbar__list">
-                <li class="navbar__item">home</li>
-                <li class="navbar__item">hawaii</li>
-                <li class="navbar__item">iceland</li>
-                <li class="navbar__item">greece</li>
-            </ul>
+            <div class="navbar__left">
+                <h2 class="header__title"><a class="header__title--link" href="/index.html">travel site</a></h2>
+            </div>
+            <div class="navbar__right">
+                <ul class="navbar__list">
+                    <li class="navbar__item"><a href="./">home</a></li>
+                    <li class="navbar__item"><a href="./">hawaii</a></li>
+                    <li class="navbar__item"><a href="./">iceland</a></li>
+                    <li class="navbar__item"><a href="./">greece</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main class="main">
         <section class="hero">
             <div class="hero-left">
-                <h1 class="hero-left__title">traveling comes with endless discoveries</h1>
+                <h1 class="hero-left__title hero-left__title--capitalize">traveling comes with endless discoveries</h1>
                 <p class="hero-left__description">Don’t let your dreams be just dreams. Experience the world by booking a
                     vacation with us now. </p>
-                <button class="btn"></button>
+                <button class="btn btn__text">get started</button>
             </div>
 
             <div class="hero-right">
-                <img src="./assets/Images/hero.png">
+                <img class="hero-right__img" src="./assets/Images/hero.png">
             </div>
         </section>
     </main>
