@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a:active{
+    border-bottom: 1rem solid orange;
+}
+
+/* Header Navbar */
+.header{
+    background-color: #FFFFFF;
+  }
+
+  .header__title{
+    text-transform: capitalize;
+  }
+
+  .header__title--link{
+    color: #335576;
+    text-decoration: none;
+
+  }
+
+  .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1rem 4rem;
+  }
+
+  .navbar__list{
+    display:flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+
+  .navbar__link{
+    text-decoration: none;
+  }
+
+/* Main */
+
+.section-container-hawaii{
+    background-image: url(../assets/Images/hawaii.jpg);
+    width: 100vw;
+    height: 75vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.section-container-iceland{
+  background-image: url(../assets/Images/iceland.jpg);
+  width: 100vw;
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.section-container-greece{
+  background-image: url(../assets/Images/greece.jpg);
+  width: 100vw;
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.container-top{
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.container-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.card{
+  width: 16rem;
+  height: 22rem;
+  background-color: #FFFFFF;
+  border-radius: .5rem;;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  }
+
+  .card-top{
+    margin: 0 rem;
+  }
+
+  .card-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+
+  /* Footer */
+.footer{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: flex-end;
+  margin: 2rem;
+}
+
+.footer__content-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
