@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel Site</title>
-    <link href="./assets/styles/main.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
 
 </head>
 
@@ -13,14 +13,14 @@
     <header class="header">
         <nav class="navbar">
             <div class="navbar__left">
-                <h2 class="header__title"><a class="header__title--link" href="/index.html">travel site</a></h2>
+                <h2 class="header__title"><a class="header__title--link" href="./index.html">travel site</a></h2>
             </div>
             <div class="navbar__right">
                 <ul class="navbar__list">
-                    <li class="navbar__item"><a class="navbar__link" href="./">home</a></li>
-                    <li class="navbar__item"><a class="navbar__link" href="./">hawaii</a></li>
-                    <li class="navbar__item"><a class="navbar__link" href="./">iceland</a></li>
-                    <li class="navbar__item"><a class="navbar__link" href="./">greece</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="../">home</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="./pages/hawaii.html">hawaii</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="./pages/iceland.html">iceland</a></li>
+                    <li class="navbar__item"><a class="navbar__link" href="./pages/greece.html">greece</a></li>
                 </ul>
             </div>
         </nav>
@@ -28,16 +28,18 @@
 
     <main class="main">
         <section class="hero">
-            <div class="hero-left">
-                <h1 class="hero-left__title hero-left__title--capitalize">traveling comes with endless discoveries</h1>
-                <p class="hero-left__description">Don’t let your dreams be just dreams. Experience the world by booking
-                    a
-                    vacation with us now. </p>
-                <button class="btn btn__text">get started</button>
-            </div>
+            <div class="hero-container">
+                <div class="hero-left">
+                    <h1 class="hero-left__title hero-left__title--capitalize">traveling comes with endless discoveries</h1>
+                    <p class="hero-left__description">Don’t let your dreams be just dreams. Experience the world by booking
+                        a
+                        vacation with us now. </p>
+                    <button class="btn btn__text">get started</button>
+                </div>
 
-            <div class="hero-right">
-                <img class="hero-right__img" src="./assets/Images/hero.png">
+                <div class="hero-right">
+                    <img class="hero-right__img" src="./assets/Images/hero.png">
+                </div>
             </div>
         </section>
 
@@ -47,17 +49,17 @@
             </div>
             <div class="recommendation-container__bottom">
                 <div class="cards">
-                    <a href="./">
+                    <a href="./pages/hawaii.html">
                         <div class="card card__background--hawaii">
                             <h3 class="card__item">hawaii</h3>
                         </div>
                     </a>
-                    <a href="./">
+                    <a href="./pages/iceland.html">
                         <div class="card card__background--iceland">
                             <h3 class="card__item">iceland</h3>
                         </div>
                     </a>
-                    <a href="./">
+                    <a href="./pages/greece.html">
                         <div class="card card__background--greece">
                             <h3 class="card__item">greece</h3>
                         </div>
