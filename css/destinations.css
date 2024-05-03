@@ -133,14 +133,17 @@ html{
   gap: 2rem;
   padding: 2rem;
   flex-wrap: wrap;
+  text-align: center;
   }
 
   .card-top{
     margin: 0 rem;
     border-bottom: .25rem solid black;
+    width: 100%;
   }
 
   .card__day{
+    text-align: center;
     font-weight: bold;
     text-transform: capitalize;
   }
@@ -151,7 +154,8 @@ html{
   .card-bottom{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 2.5rem;
+    width: 100%;
     margin-top: 1rem;
     background-color: #FEFAF5;
   }
