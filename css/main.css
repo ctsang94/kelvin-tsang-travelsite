@@ -45,6 +45,7 @@ html{
   justify-content: space-between;
   align-items: baseline;
   padding: 1rem 4rem;
+  flex-wrap: wrap;
 }
 
 .navbar__list{
@@ -74,6 +75,7 @@ html{
   justify-content: space-evenly;
   align-items: center;
   background-color: #fefaf5;
+  flex-wrap: wrap;
 }
 
 .hero-left{
@@ -199,6 +201,7 @@ html{
   align-items: center;
   background-color: #FEFAF5;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .footer__container{
